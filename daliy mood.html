@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAILY MOOD TRACKER</title>
+</head>
+<body>
+    <h1><strong><em>Daily Mood Tracker</em></strong></h1>
+    <section class="mood">
+      <label for="mood">Select your mood:</label>
+      <select name="mood" id="mood">
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😢 Sad</option>
+        <option value="angry">😡 Angry</option>
+        <option value="excited">🤩 Excited</option>
+        <option value="calm">😌 Calm</option>
+      </select>
+    </section>
+    <br>
+    <section class="message">
+     <label for="note">Add a note: </label>
+     <input type="text" name="note" id="note" placeholder="Write something ...">
+     <br><br>
+     <button>Save Mood</button>
+    </section>
+    <br>
+    <section class="post mood">
+        <h1><strong><em>Past Moods</em></strong></h1>
+        <ul>
+            <li>😊 Happy - Had a great day!</li>
+            <li>😢 Sad - Missed a friend...</li>
+        </ul>
+    </section>
+</body>
+</html>
